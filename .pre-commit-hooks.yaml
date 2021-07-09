@@ -1,0 +1,8 @@
+-   id: standard
+    name: standard
+    entry: standard --fix
+    language: node
+    'types': [text]
+    args: []
+    require_serial: false
+    additional_dependencies: ["standard@16.0.3"]
