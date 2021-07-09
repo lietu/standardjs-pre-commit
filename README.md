@@ -29,6 +29,10 @@ You should have a `package.json` at the root including:
 }
 ```
 
+It also seems you need a `babel.config.json` at the root with e.g. `{}` as the contents.
+
+
+
 # Financial support
 
 This project has been made possible thanks to [Cocreators](https://cocreators.ee) and [Lietu](https://lietu.net). You can help us continue our open source work by supporting us on [Buy me a coffee](https://www.buymeacoffee.com/cocreators).
