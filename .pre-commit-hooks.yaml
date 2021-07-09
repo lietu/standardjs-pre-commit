@@ -2,7 +2,7 @@
     name: standard
     entry: standard --fix
     language: node
-    types_or: [javascript, jsx]
+    files: \.(json|js|jsx)$
     args: []
     require_serial: false
-    additional_dependencies: ["standard@16.0.3"]
+    additional_dependencies: ["standard@16.0.3", "@babel/eslint-parser@7.14.7"]

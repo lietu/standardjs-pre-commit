@@ -17,8 +17,17 @@ You can add these to your project's `.pre-commit-config.yaml`:
 
 ## I need ES features, what should I do?
 
-Just follow the StandardJS guides: https://standardjs.com/#how-do-i-use-experimental-javascript-es-next-features
+Basically just follow the StandardJS guides: https://standardjs.com/#how-do-i-use-experimental-javascript-es-next-features
 
+You should have a `package.json` at the root including:
+
+```json
+{
+    "standard": {
+        "parser": "@babel/eslint-parser"
+    }
+}
+```
 
 # Financial support
 
